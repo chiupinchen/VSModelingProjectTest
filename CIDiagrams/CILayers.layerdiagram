@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="13df89a0-0da6-4c60-97d5-5075e2f543f0" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="d4f26ed0-e4bf-4449-973b-07a50eb626d0" name="Web&#xD;&#xA;">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="8219d7c7-78b0-4fdb-85c7-cfec8fcacb3b" direction="Forward">
+          <layerMoniker Id="b805cec6-6096-4f48-b34a-8388740646c6" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="814d50d4-5f60-4f71-9bba-965ec0dfd5df" direction="Forward">
+          <layerMoniker Id="26ac87af-c216-4f6f-9f0e-b28ecd6e6d80" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="8718ac61-7587-4f86-9105-f4439435fff3" direction="Forward">
+          <layerMoniker Id="39862b1d-c553-433f-b600-b8128ee31672" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="688e7e61-9fd4-4362-89ab-f1773339de0d" direction="Forward">
+          <layerMoniker Id="a6c4492a-33d5-40a1-b756-9c15d27f7d3c" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="b805cec6-6096-4f48-b34a-8388740646c6" name="Core.MVC&#xD;&#xA;">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="1e3af2d5-d800-4ff7-ba8c-c7d77756be23" direction="Forward">
+          <layerMoniker Id="0dfd3fc2-49e3-4688-9014-e923710ed68f" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="a6c4492a-33d5-40a1-b756-9c15d27f7d3c" name="Child.MVC&#xD;&#xA;">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="e862a295-6641-430a-a592-dbe16bc940c5" direction="Forward">
+          <layerMoniker Id="f2437cbd-6a6b-4741-ad11-90e88b605e2d" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="26ac87af-c216-4f6f-9f0e-b28ecd6e6d80" name="ProductCatalog.MVC&#xD;&#xA;">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="4e998a01-f9a1-4f2a-82a4-395e7409d393" direction="Forward">
+          <layerMoniker Id="aeca8ece-6dab-41b2-8c1d-f19fa298f396" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="911742cd-97d0-499b-8911-c32a82de4bf2" name="CMS&#xD;&#xA;" />
+    <layer Id="39862b1d-c553-433f-b600-b8128ee31672" name="Transaction.MVC&#xD;&#xA;">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="eddf7477-117a-498c-ba17-c22c59ea4850" direction="Forward">
+          <layerMoniker Id="0d694b6d-8d09-4f95-b356-9f09df182dda" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="081936e6-235b-43c8-bf55-46bec519ea5e" name="Admin&#xD;&#xA;" />
+    <layer Id="5b9c25ee-600a-4f78-b4db-fae5ee3e9a8c" name="Mobile&#xD;&#xA;" />
+    <layer Id="f2437cbd-6a6b-4741-ad11-90e88b605e2d" name="Child.Data&#xD;&#xA;">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="4cca2580-bb66-4ef2-9ca2-756aa96f54ed" direction="Forward">
+          <layerMoniker Id="046a480a-303d-47ad-bc55-3e293fa58c86" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="aeca8ece-6dab-41b2-8c1d-f19fa298f396" name="ProductCatalog.Data&#xD;&#xA;">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="187e68f4-cb30-4fa2-9763-da9e65046aa2" direction="Forward">
+          <layerMoniker Id="046a480a-303d-47ad-bc55-3e293fa58c86" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="0dfd3fc2-49e3-4688-9014-e923710ed68f" name="Core.Data">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="b3ec4e67-c94c-4e3b-858a-b06c5866c3ba" direction="Forward">
+          <layerMoniker Id="046a480a-303d-47ad-bc55-3e293fa58c86" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="0d694b6d-8d09-4f95-b356-9f09df182dda" name="Transaction.Data&#xD;&#xA;">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="6cf1542c-41fe-420d-94fc-b49db8793c58" direction="Forward">
+          <layerMoniker Id="046a480a-303d-47ad-bc55-3e293fa58c86" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="3ff77b51-0058-45b8-982c-0a75491d363d" name="Core.Framework.NHibernate&#xD;&#xA;" />
+    <layer Id="046a480a-303d-47ad-bc55-3e293fa58c86" name="Core.Framework">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="7f53575b-b634-4c53-a327-3918fcd37c01" direction="Forward">
+          <layerMoniker Id="3ff77b51-0058-45b8-982c-0a75491d363d" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+  </layers>
+</layerModel>

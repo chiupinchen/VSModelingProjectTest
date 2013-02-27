@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner"
+  dslVersion="1.0.0.0"
+  Id="b4dcdd0b-7f10-4f85-b637-5666e339d8b0"
+  name="CIDiagrams" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <component
+        Id="cf96181f-7d89-4ac3-9605-f989b5627f81"
+        name="CIAppSolution"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="0152fada-58ef-4e1f-b47d-bba75c1b5cb7">
+            <componentMoniker
+              Id="8d7ade2c-66d8-4424-8f11-422865b1703b"
+              LastKnownName="CIAptifyFramework"
+              LastKnownLocation="CIDiagrams.uml" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="8d7ade2c-66d8-4424-8f11-422865b1703b"
+        name="CIAptifyFramework"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="10da0821-73fa-402e-a72f-f373455b8c3e">
+            <componentMoniker
+              Id="006c1f3f-bf59-4d08-8101-7900b57c00f3"
+              LastKnownName="InterOps"
+              LastKnownLocation="CIDiagrams.uml" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="006c1f3f-bf59-4d08-8101-7900b57c00f3"
+        name="InterOps"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="610b592a-4f54-4713-a1d7-c2c87aa0e134">
+            <componentMoniker
+              Id="c1835294-9302-4b3a-b3cb-37e98084b53d"
+              LastKnownName="AptifyCore"
+              LastKnownLocation="CIDiagrams.uml" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="c1835294-9302-4b3a-b3cb-37e98084b53d"
+        name="AptifyCore"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="7feaa137-f2ff-4f18-aa0e-13839a242d12"
+        name="AptifyClient"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <part
+            Id="638cb84d-3758-43af-b92f-5890e8a4bdd8"
+            name="CIAppSolution"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="Composite"
+            isComposite="true">
+            <type_NamedElement>
+              <componentMoniker
+                Id="ed685ff8-d312-48f4-9c11-ef5c6e39d79c"
+                LastKnownLocation="CIDiagrams.uml" />
+            </type_NamedElement>
+          </part>
+          <part
+            Id="1d13603f-0121-474e-a525-7a33609f4604"
+            name="CIAptifyFramework"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="Composite"
+            isComposite="true">
+            <type_NamedElement>
+              <componentMoniker
+                Id="8241ab08-77f6-45f8-ac37-4b05309e021e"
+                LastKnownLocation="CIDiagrams.uml" />
+            </type_NamedElement>
+          </part>
+          <part
+            Id="83023552-3bd8-4e27-a8ea-7797f352c6b9"
+            name="InterOps"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="Composite"
+            isComposite="true">
+            <type_NamedElement>
+              <componentMoniker
+                Id="3904890c-d74a-4d8f-bb19-ce5e54a5788c"
+                LastKnownLocation="CIDiagrams.uml" />
+            </type_NamedElement>
+          </part>
+          <part
+            Id="6c1a01ed-72d7-41e1-b8b9-501081e86066"
+            name="AptifyCore"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="Composite"
+            isComposite="true">
+            <type_NamedElement>
+              <componentMoniker
+                Id="19d70a47-f4d3-42ee-9146-35f74e51e640"
+                LastKnownLocation="CIDiagrams.uml" />
+            </type_NamedElement>
+          </part>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="ed685ff8-d312-48f4-9c11-ef5c6e39d79c"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="8241ab08-77f6-45f8-ac37-4b05309e021e"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="3904890c-d74a-4d8f-bb19-ce5e54a5788c"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="19d70a47-f4d3-42ee-9146-35f74e51e640"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

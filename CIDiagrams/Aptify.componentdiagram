@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<componentModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="439f168d-90e4-49b4-b8a7-71bd371db699" name="Aptify" linkedPackageId="7a502662-0a48-4941-af1e-10ccdd23c4b5" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="f6464eed-f26c-4d8c-94b3-10d4960a6907">
+      <profileInstance Id="baf4f246-26c3-4c70-8435-3180eb2f82fa" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="722291c0-ba2d-40ce-bb9f-25d32bec6b5c">
+      <profileInstance Id="59f85161-b134-4cf1-be77-48cad04c2dba" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <componentModelHasComponents>
+      <component Id="8ffc6942-0ada-4f4c-907a-d5d491cb4b79" name="AptifyClient" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="7feaa137-f2ff-4f18-aa0e-13839a242d12" />
+        <ownedAttributesInternal>
+          <part Id="3943ac4d-2847-4e99-a970-534a931a1090" name="CIAppSolution" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="638cb84d-3758-43af-b92f-5890e8a4bdd8" />
+            <type_NamedElement>
+              <componentMoniker Id="9e744a50-7688-4dbd-8bd1-e79f702d4c26" />
+            </type_NamedElement>
+          </part>
+          <part Id="199687c9-9125-43cb-8dd2-3e7a80ff7756" name="CIAptifyFramework" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="1d13603f-0121-474e-a525-7a33609f4604" />
+            <type_NamedElement>
+              <componentMoniker Id="7237602d-3e1c-49e7-860b-b964fd98c0a6" />
+            </type_NamedElement>
+          </part>
+          <part Id="98ef827f-d104-4f23-b286-824ea84f04f7" name="InterOps" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="83023552-3bd8-4e27-a8ea-7797f352c6b9" />
+            <type_NamedElement>
+              <componentMoniker Id="3f4bc1d5-519c-4b78-88f4-27ccdd30c58c" />
+            </type_NamedElement>
+          </part>
+          <part Id="cf9b97d0-4c1d-4e40-888b-c3be52db9b8c" name="AptifyCore" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="6c1a01ed-72d7-41e1-b8b9-501081e86066" />
+            <type_NamedElement>
+              <componentMoniker Id="4470a139-93a7-4801-9e38-094423ebdf8b" />
+            </type_NamedElement>
+          </part>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="9e744a50-7688-4dbd-8bd1-e79f702d4c26" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="ed685ff8-d312-48f4-9c11-ef5c6e39d79c" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="7237602d-3e1c-49e7-860b-b964fd98c0a6" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="8241ab08-77f6-45f8-ac37-4b05309e021e" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="3f4bc1d5-519c-4b78-88f4-27ccdd30c58c" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3904890c-d74a-4d8f-bb19-ce5e54a5788c" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="4470a139-93a7-4801-9e38-094423ebdf8b" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="19d70a47-f4d3-42ee-9146-35f74e51e640" />
+      </component>
+    </componentModelHasComponents>
+  </packagedElements>
+  <package Id="7a502662-0a48-4941-af1e-10ccdd23c4b5" name="CIDiagrams">
+    <elementDefinition Id="b4dcdd0b-7f10-4f85-b637-5666e339d8b0" />
+  </package>
+</componentModel>

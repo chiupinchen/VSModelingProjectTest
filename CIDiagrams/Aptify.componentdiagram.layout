@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<componentDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Aptify">
+  <componentModelMoniker Id="439f168d-90e4-49b4-b8a7-71bd371db699" />
+  <nestedChildShapes>
+    <componentShape Id="90ab77a9-95bd-4981-92c1-a0b805b5af70" absoluteBounds="1.625, 0.5, 4.2041666666666666, 5.5708333333333329" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+      <componentMoniker Id="8ffc6942-0ada-4f4c-907a-d5d491cb4b79" LastKnownName="AptifyClient" />
+      <nestedChildShapes>
+        <componentUseShape Id="e3c3ce1a-7247-47a6-9025-d7e8851c9b83" absoluteBounds="3, 1.625, 2.46875, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+          <partMoniker Id="3943ac4d-2847-4e99-a970-534a931a1090" LastKnownName="CIAppSolution" />
+        </componentUseShape>
+        <componentUseShape Id="4dd7e058-abd4-41dc-80c8-27b250affd4b" absoluteBounds="3, 2.75, 2.458333333333333, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+          <partMoniker Id="199687c9-9125-43cb-8dd2-3e7a80ff7756" LastKnownName="CIAptifyFramework" />
+        </componentUseShape>
+        <componentUseShape Id="b90c87d2-c732-468f-8c3e-feb0a4896b70" absoluteBounds="3, 3.875, 2.447916666666667, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+          <partMoniker Id="98ef827f-d104-4f23-b286-824ea84f04f7" LastKnownName="InterOps" />
+        </componentUseShape>
+        <componentUseShape Id="baddd480-8a4a-4e91-b662-93c5d677b245" absoluteBounds="3, 5, 2.4166666666666661, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+          <partMoniker Id="cf9b97d0-4c1d-4e40-888b-c3be52db9b8c" LastKnownName="AptifyCore" />
+        </componentUseShape>
+      </nestedChildShapes>
+    </componentShape>
+  </nestedChildShapes>
+</componentDiagram>
