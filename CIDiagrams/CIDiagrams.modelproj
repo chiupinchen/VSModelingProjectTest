@@ -22,6 +22,20 @@
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
   <ItemGroup>
+    <Content Include="RoutingActivity.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="RoutingActivity.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>RoutingActivity.activitydiagram</DependentUpon>
+    </Content>
+    <Content Include="Test.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Test.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Test.sequencediagram</DependentUpon>
+    </Content>
     <Folder Include="ModelDefinition\" />
     <Content Include="Aptify.componentdiagram">
       <SubType>Content</SubType>
